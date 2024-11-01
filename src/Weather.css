@@ -1,0 +1,79 @@
+.weather-container {
+    text-align: center;
+    background-color: #f0f8ff; /* Light background color */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Arial', sans-serif; /* Change to a stylish font */
+    font-size: 2.5rem;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #007bff; /* Bootstrap primary color */
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.weather-info {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black; /* Change text color for better visibility */
+    background-size: cover; /* Make background image cover the whole div */
+    background-position: center; /* Center the background image */
+    display: inline-block; /* Make it fit content */
+    max-width: 300px; /* Limit width for better layout */
+    height: auto; /* Allow height to adjust */
+    font-family: 'Roboto', sans-serif; /* Unique and modern font */
+    text-align: left; /* Align text to the left */
+}
+
+.weather-info h2 {
+    font-size: 2rem; /* Larger font for city name */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.weather-info p {
+    font-size: 1.2rem; /* Slightly larger font for weather details */
+    margin: 5px 0; /* Add margin for spacing */
+}
+
+/* Optional: Add responsive design for mobile devices */
+@media (max-width: 600px) {
+    .weather-info {
+        max-width: 90%; /* Make it responsive */
+    }
+    
+    h1 {
+        font-size: 2rem; /* Reduce header size */
+    }
+    
+    .weather-info h2 {
+        font-size: 1.5rem; /* Adjust city name size */
+    }
+    
+    .weather-info p {
+        font-size: 1rem; /* Adjust weather detail size */
+    }
+}
